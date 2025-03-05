@@ -1,0 +1,147 @@
+{
+    "here": "aquí.",
+    "send": "enviar aquí",
+    "return": "Volver a la página principal",
+    "enter": "Entrar",
+    "header": {
+      "title": "Boda de Raúl y Alison",
+      "subtitle": "¡Únete a nosotros en nuestro día especial!"
+    },
+    "nav": {
+      "details": "Detalles",
+      "plan": "El Plan",
+      "region": "La Región",
+      "location": "La Ubicación",
+      "travel": "Cómo Llegar",
+      "accommodation": "Alojamiento",
+      "faqs": "Preguntas Frecuentes"
+    },
+    "details": {
+      "title": "Detalles de la Ceremonia",
+      "date": "Fecha: Sábado, 13 de septiembre de 2025",
+      "time": "Hora: 12,15 del mediodía",
+      "location": "Ubicación: El pueblo de Isín en Huesca, España."
+    },
+    "plan": {
+      "title": "Planes para el Fin de Semana",
+      "description": "Aunque el sábado es el evento principal (¡y esperamos tener a todos allí para la ceremonia del mediodía, almuerzo, fiesta y cena!), el resto del fin de semana es opcional y está diseñado para ser flexible:",
+      "friday": "Viernes por la noche: Evento de bienvenida - Estaremos preparando todo durante el día y podríamos necesitar algunas manos extra. ¡La cena va por nuestra cuenta!",
+      "sunday": "Domingo: Un día tranquilo con almuerzo si quieres quedarte y relajarte con nosotros. Esperamos tener buen tiempo.",
+      "closing": "Ya sea que te unas a nosotros por una noche, dos noches, o solo el sábado, ¡estaremos encantados de tenerte con nosotros!"
+    },
+    "region": {
+      "title": "La Región",
+      "description": "Nuestra boda se llevará a cabo en una hermosa zona del norte de España. Los Pirineos ofrecen vistas a las montañas, rica historia y encantadores pueblos.",
+      "isin": "Isín es un pueblo pirenaico restaurado y anteriormente abandonado. ¡Lo tendremos para nosotros solos!",
+      "sabinanigo": "Sabiñánigo (a 11km de Isín) es un pequeño y conveniente pueblo con excelentes conexiones de transporte.",
+      "jaca": "Jaca (a 22km de Isín), un poco más lejos, es una joya con calles medievales y hermosos paisajes."
+    },
+    "location": {
+      "title": "Ubicación"
+    },
+    "travel": {
+      "title": "Cómo Llegar",
+      "description": "El pueblo de Sabiñánigo es accesible en tren y autobús desde Zaragoza, Huesca y Pamplona (todas en líneas principales de tren). Desde allí, es un corto trayecto en taxi a Isín - o coordinaremos viajes con amigos de la zona. En coche, está a unas 3,5 horas de Barcelona y Bilbao, 1,5 horas de Zaragoza y Pamplona o un poco más de 4 horas de Madrid.",
+      "trains": "Trenes",
+      "buses": "Buses",
+      "planning": "Planificación"
+    },
+    "accommodation": {
+      "title": "Alojamiento",
+      "description": "¡Hemos reservado todo el pueblo! Las opciones básicas en el lugar incluyen:",
+      "hostel": "Un albergue juvenil con habitaciones compartidas (4-8 camas) con acceso a baños comunes. Mantendremos juntos a las familias y grupos de amigos donde sea posible. ",
+      "apartments": "Apartamentos (3-11 personas) reservados para invitados mayores y familias con niños pequeños. Cuentan con baño privado.",
+      "budget_option": "Este alojamiento es una opción económica a solo 15€ por persona/noche —solo háznoslo saber en el RSVP si quieres quedarte allí. El desayuno estará incluido allí, o puedes aprovechar las mañanas para explorar la zona.",
+      "other_options": "Otras opciones cercanas incluyen hoteles, B&Bs, campings, cabañas y apartamentos. Sabiñánigo es el más cercano, mientras que Jaca ofrece una opción más pintoresca. Os hemos dejado unos enlaces abajo para explorar.",
+      "sabinanigo_hotels": "Sabiñánigo y pueblos cercanos:",
+      "hotels": {
+        "title": "Hoteles",
+        "churron": "El Churrón, Larrés",
+        "villa_virginia": "Hotel Villa Virginia, Sabiñánigo",
+        "mi_casa": "Hotel Mi Casa, Sabiñánigo",
+        "vinas": "Hotel Viñas de Larredé, Larredé",
+        "casbas": "Hotel Casbas, Casbas"
+      },
+      "campsites": {
+        "title": "Campings",
+        "sabiñanigo_camp": "Sabiñánigo Camp and Hotel"
+      },
+      "jaca_hotels": "Jaca:",
+      "booking": "Opciones en Booking.com"
+    },
+    "dress_code": { 
+        "title": "Código de Vestimienta",
+        "description": "Aunque estamos celebrando en una zona rural, sigue siendo una boda a todo lo alto. Ponte guap@, mientras te mantienes cómodo. Chicas - Evitad el azul marino, por favor. Zapatos - Solo recuerda, el pueblo está en el monte, hay cuestas y cesped, así que opta por zapatos planos o con tacón bajo y ancho para evitar acrobacias no planificadas. ¿Traje? Queremos que estés elegante, pero no te preocupes, no se requieren esmoquin. Un americano será suficiente con una corbata / pajarita si te apetece.", 
+        "inspiration": "Hemos creado aquí un pequeño tablón de inspiración para quien tenga dificultades, pero sobre todo queremos que te sientas cómoda. Puedes verlo ",
+        "waleska": {
+          "title": "Descuento Exclusivo",
+          "description": "No sería una boda Ramón sin una mención especial de Waleska Look Moda. La tienda familiar de Raúl está ofreciendo un descuento para cualquiera de nuestras invitadas que quiere comprar su vestido en sus tiendas en Zaragoza. Visita las tiendas o mira en su página web "
+      }
+    },
+    "faqs": {
+      "title": "FAQs",
+      "food": {
+        "title": "¿Qué habrá para comer?",
+        "description": "No queremos revelar todas las sorpresas, pero habrá mucha comida, y aquellos con requisitos dietéticos especiales serán atendidos. ¡Nuestro RSVP preguntará sobre esto!"
+      },
+      "gifts": {
+        "title": "Regalos",
+        "description": "¡Tu presencia en nuestra boda es el mayor regalo que podríamos pedir! Sin embargo, si estás considerando un regalo, nos encantarían las contribuciones para nuestra luna de miel. Habrá un sitio seguro para guardar los sobres o podeís encontrar nuestros datos bancarios ",
+        "here": "aquí",
+        "banks": "Datos Bancarios",
+        "travel": {
+          "title": "",
+          "paradores": "",
+          "flights": "",
+          "airbnb": "",
+          "activities": ""
+        },
+        "reading": {
+          "title": "",
+          "bookshop": "",
+          "waterstones": ""
+        },
+        "learning": {
+          "title": "",
+          "surf_classes": "",
+          "ski_classes": "",
+          "cooking_classes": "",
+          "kayaking_classes": ""
+        }
+      },
+      "names": {
+        "title": "Los ingleses cambian sus apellidos...¿y vosotros?",
+        "description": "No cambiaremos nuestros apellidos después de casarnos, así que seguiremos siendo Alison Ratcliffe y Raúl Ramón Gracia."
+      },
+       
+      "weather": { 
+            "title": "¿Qué tiempo va a hacer?", 
+            "description": "Esperamos que la temperatura sea cálida (alrededor de 20ºC de media, máximo 25º), pero que se enfríe por la noche (mínimo 13º). Isín tiene unos 6 días de lluvia en septiembre, en promedio, así que tenemos buenas probabilidades de un día bueno." 
+            }, 
+      "plus_ones": { 
+            "title": "¿Puedo traer un acompañante?", 
+            "description": "Si hemos dirigido la invitación a ti y a tu acompañante, ambos estaís invitados. ¡Estamos emocionados de celebrar con vosotros! Si necesitas hacer algún cambio o tienes alguna pregunta, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudar y asegurarnos de que todo vaya sobre ruedas." 
+        },
+      "parking": {
+          "title": "¿Hay donde aparcar?",
+          "description": "Sí, aunque agradecemos que intenteis compartir coche donde sea posible, debería haber espacio para todos."
+        },
+      "pets": {
+          "title": "¿Puedo traer a mi perro?",
+          "description": "Si tienes un amigo peludo, lamentamos decir que no podrá quedarse en el alojamiento. Hay algunas empresas de la zona que os puede echar una mano."
+        },
+      "organisation": {
+        "title": "¿Con quien contacto para haceros una sorpresa?",
+        "description": "Sabemos que hay cosas en las bodas que los novios no pueden saber antes del gran día. Para ayudar con estas movidas, además de la organización general del día tenemos a una gran profesional, Carolina Diloy. Ella se encargará de la gestion del día, entonces si quereís dedicarnos una canción, habla con ella.",
+        "link": "Encontrarás sus datos "
+      }
+    },
+    "rsvp": {
+      "title": "Confirma tu asistencia",
+      "link": "https://forms.gle/YP1dbW1QuFvAkEra6",
+      "response": "¡Necesitamos saber si vendrás! Haznos llegar tu respuesta a través del formulario ",
+      "limit": "Fecha limite 31 APRIL 2025",
+      "contact":"Si tienes cualquier duda o necesitas actualizar tu contestación, aparte de Whatsapp, la manera más facíl de hacerlo es a través del correo: "
+        },
+    "top": "Subir Arriba"
+}

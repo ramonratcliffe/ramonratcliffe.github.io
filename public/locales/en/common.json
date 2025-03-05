@@ -1,0 +1,149 @@
+{
+    "here": "here.",
+    "return": "Return to the homepage",
+    "send": "send here",
+    "enter": "Enter",
+    "header": {
+        "title": "Raúl and Alison's Wedding",
+        "subtitle": "Join us on our special day!"
+    },
+    "nav": {
+        "details": "Details",
+        "plan": "The Plan",
+        "region": "The Region",
+        "location": "The Location",
+        "travel": "Getting here",
+        "accommodation": "Accommodation",
+        "faqs": "FAQs"
+    },
+    "details": {
+        "title": "Ceremony Details",
+        "date": "Date: Saturday, 13th September 2025",
+        "time": "Time: 12.15 midday",
+        "location": "Location: The village of Isín in Huesca, Spain."
+    },
+    "plan": {
+        "title": "Weekend Plans",
+        "description": "While Saturday is the main event (and we hope to have everyone there for the midday ceremony, lunch, party, and supper!), the rest of the weekend is optional and designed to be flexible:",
+        "friday": "Friday evening: Welcome event - We’ll be setting up everything during the day and could use some extra hands. Dinner's on us!",
+        "sunday": "Sunday: A casual day with lunch if you’d like to stay and wind down with us. Hopefully we'll have some nice weather.",
+        "closing": "Whether you join us for one night, two nights, or just Saturday, we’ll be thrilled to have you!"
+    },
+    "region": {
+        "title": "The Region",
+        "description": "Our wedding will take place in beautiful area of northern Spain. The Pyrenees offer mountain views, rich history, and charming villages.",
+        "isin": "Isín is a restored, once-abandoned Pyrenean village. We’ll have it to ourselves!",
+        "sabinanigo": "Sabiñánigo (7 miles to Isín) is a small, convenient town with great transport connections.",
+        "jaca": "Jaca (14 miles to Isín), slightly further, is a gem with medieval streets and lovely scenery."
+    },
+    "location": {
+        "title": "Location"
+    },
+    "travel": {
+        "title": "Getting here",
+        "description": "The town of Sabiñánigo is accessible via train and coach/bus from Zaragoza, Huesca, and Pamplona (all of which are on main train lines). From there, it’s a short drive to Isín by taxi —or we’ll gladly help coordinate lifts with local friends! By car it’s about 1.5h from Zaragoza, 3.5h from Barcelona and Bilbao, or a little over 4h from Madrid and Toulouse. So for flights, consider Zaragoza (direct from Stansted), Bilbao, Barcelona, Madrid or even Toulouse as options. For ferries consider Bilbao and Santander.",
+        "trains": "Trains",
+        "buses": "Buses",
+        "planning": "Journey planning"
+    },
+    "accommodation": {
+        "title": "Accommodation",
+        "description": "We’ve booked the whole village! Basic on-site options include:",
+        "hostel": "A youth hostel with shared rooms (4-8 beds) with access to communal bathrooms. We’ll obviously keep families and friends together as much as possible.",
+        "apartments": "Apartments (3-11 people) reserved for older guests and families with younger kids.",
+        "budget_option": "This accommodation is a budget option at just 15€ per person/night —just let us know if you’d like to stay there. Breakfast will be included there, or you can make the most of the mornings and explore the area.",
+        "other_options": "Other nearby options include hotels, B&Bs, campsites, cabins and apartments. Take into account that Sabiñánigo is the closest, while Jaca offers a more scenic option We've left some links below for you to explore.",
+        "sabinanigo_hotels": "Sabiñánigo and nearby villages:",
+        "hotels": {
+            "title": "Hotels",
+            "churron": "El Churrón, Larrés",
+            "villa_virginia": "Hotel Villa Virginia, Sabiñánigo",
+            "mi_casa": "Hotel Mi Casa, Sabiñánigo",
+            "vinas": "Hotel Viñas de Larredé, Larredé",
+            "casbas": "Hotel Casbas, Casbas"
+        },
+        "campsites": {
+            "title": "Campsites",
+            "sabiñanigo_camp": "Sabiñánigo Camp and Hotel"
+        },
+        "jaca_hotels": "Jaca:",
+        "booking": "Booking.com options"
+    },
+    "dress_code": {
+      "title": "Dress Code",
+      "description": "Although we're celebrating in the beautiful countryside, we want you to bring your A-game and dress to impress, while staying comfy. Think cocktail! This is your chance to bring out that outfit you've been wanting to wear on a special occasion. Ladies - Avoid Navy Blue where possible. Shoes - Just remember, it's a bit hilly, so opt for flat or small heels to avoid any unplanned acrobatics. Suit? We want you suited and booted, but don’t worry, tuxedos are not required. A nice blazer will do the trick with a tie / bow tie if you fancy, but no pressure.",
+      "inspiration": "We've created a little board of inspiration here for anyone who's struggling, but above all we want you to feel comfortable! Have a look ",
+      "waleska": {
+          "title": "Dress Shopping Discount",
+          "description": "It wouldn't be a Ramon wedding without a special mention to Waleska | Look Moda. Raúl's family shop are offering a lovely discount for any of our guests who wish to get their outfit in either of their shops in Zaragoza. Visit the shops or check out their website "
+      }
+  },
+    "faqs": {
+        "title": "FAQs",
+        "food": {
+            "title": "Food",
+            "description": "We don't want to give away all the surprises, but there will be plenty of food, and those with any special dietary requirements will be catered for. Our RSVP will ask about this!"
+        },
+        "check_in": {
+            "title": "Hostel / Apartment Check In",
+            "description": ""
+        },
+        "gifts": {
+            "title": "Gifts",
+            "description": "Your presence at our wedding is the greatest gift we could ask for! However, if you're considering a present, we would love contributions towards our honeymoon, but we know that's boring! So here are some examples of things we love. Some of them are gift cards and others are to give you some ideas! We'll have a letter box for cards or our bank details are ",
+            "travel": {
+                "title": "Travel",
+                "paradores": "Paradores",
+                "flights": "Flights",
+                "airbnb": "Airbnb",
+                "activities": "Activities"
+            },
+            "reading": {
+                "title": "Reading",
+                "bookshop": "Independent bookshops",
+                "waterstones": "Waterstones"
+            },
+            "learning": {
+                "title": "Learning",
+                "surf_classes": "Surf classes",
+                "ski_classes": "Ski classes (no gift cards available)",
+                "cooking_classes": "Cooking classes (no gift cards online)",
+                "kayaking_classes": "Kayaking and nature classes"
+            }
+        },
+        "names": {
+            "title": "Names",
+            "description": "In Spain people don't change surnames after getting married so we'll still be Alison Ratcliffe and Raúl Ramón Gracia."
+        },
+       
+        "weather": {
+            "title": "Weather",
+            "description": "Temperature-wise we expect it to be warm (around 20ºC average, max 25º), but to cool down in the evenings (min 13º). Isín gets about 6 rainy days in September, on average, so we've got a good chance of dry weather."
+        },
+        "plus_ones": {
+            "title": "Plus Ones",
+            "description": "If we've addressed the invite to you and your plus one, you're both definitely invited. We're excited to celebrate with you! If you need to make any changes or have any questions, please don't hesitate to get in touch with us. We're here to help and make sure everything goes smoothly."
+        },
+        "parking": {
+            "title": "Parking",
+            "description": "There is parking space in the village. The road access is a little rural, but nothing too scary. Sharing cars would be a huge help to reduce the number of vehicles we need to find space for."
+        },
+        "pets": {
+            "title": "Pets",
+            "description": "If you have a furry friend you'd like to bring, unfortunately it can't stay in the onsite accommodation, however in that case, there are some local kennels that may be useful!"
+        },
+        "organisation": {
+          "title": "Organisation",
+          "description": "We know that there are things at weddings that the bride and groom cannot know before the big day. To help with these things, in addition to the general organisation of the day, we have the help, Carolina Diloy. She will be in charge of the management of the day, so if you want to, for example, dedicate a song to us, talk to her (she speaks English too).",
+          "link": "You can find her details "
+        }
+    },
+    "rsvp": {
+        "title": "RSVP",
+        "response": "Please let us know your response using the form ",
+        "link": "https://forms.gle/YqPGSeLY86uPb4SU6",
+        "limit": "Please respond by 31 APRIL 2025",
+        "contact": "If you have any doubts or want to change your RSVP, aside from Whatsapp, the easiest way is to email us: "
+    },
+    "top": "Back to the top"
+}

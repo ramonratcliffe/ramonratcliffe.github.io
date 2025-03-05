@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { useTranslation } from 'react-i18next';
+import { Suspense } from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { Details } from './components/Details'; 
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { Banks } from './components/Banks';
+import { MoodBoard } from './components/MoodBoard' 
 function App() {
-  const [count, setCount] = useState(0)
+  const { t } = useTranslation();
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="App container">
+      <Header /> 
+        <div className="flex justify-center items-center min-h-svh relative"> 
+          <img src="/src/assets/leaf.png" alt="leaf image" className="absolute inset-0 w-full h-4/6 object-cover" /> 
+            <Link to="/details" className="relative mt-[-200px] py-6 px-8 bg-opacity-95 rounded-md shadow-md hover:bg-rose-100 transition duration-300" >
+              {t('enter')}
+            </Link>
+        </div>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default function WrappedApp() {
+  return (
+    <div className="flex justify-center items-center">
+    <Suspense fallback="Loading" >
+      <Router basename="/">
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/details" element={<Details />} />
+          <Route path="/banks" element={<Banks/>} />
+          <Route path="/looks" element={<MoodBoard />} /> 
+        </Routes>
+      </Router>
+    </Suspense>
+    </div>
+  );
+}
