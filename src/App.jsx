@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App container">
       <Header /> 
-        <div className="flex justify-center items-center min-h-svh relative"> 
+        <div className="flex justify-center items-center min-h-screen relative"> 
           <img src={leaf} alt="leaf image" className="absolute inset-0 w-full h-4/6 object-cover" /> 
             <Link to="/details" className="relative mt-[-200px] py-6 px-8 bg-opacity-95 rounded-md shadow-md hover:bg-rose-100 transition duration-300" >
               {t('enter')}
@@ -27,7 +27,7 @@ function App() {
 
 export default function WrappedApp() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center min-h-screen">
     <Suspense fallback="Loading" >
       <Router basename="/">
         <Routes>

@@ -40,10 +40,9 @@ export const Details = () => {
     
   ];
 return (
-  <div className="flex justify-center">
-  <div className="w-2/3 ">
-   <NavBar />
-    <main className="p-4 justify-start">
+  <div className="flex flex-col items-center mx-auto w-full px-4">
+    <NavBar />
+    <main className="w-full max-w-2xl p-4">
     <div className="flex justify-center">
       <img src={us1} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4" />
     </div>
@@ -55,9 +54,9 @@ return (
         <p>{t('details.location')}</p>
         </div>
         <div className="flex justify-center">
-    <img src={isinViews} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
+    <img src={isinViews} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
 
-  <img src={isinChurch} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
+  <img src={isinChurch} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
 
 
   </div>
@@ -69,12 +68,12 @@ return (
           <li className="text-justify">{t('plan.friday')}</li>
           <li className="text-justify">{t('plan.sunday')}</li>
         </ul>
-        <img src={isinPlaza} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab mx-auto" />
+        <img src={isinPlaza} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200 mx-auto" />
         <p>{t('plan.closing')}</p>
       </DetailSection>
       <DetailSection id="region" title={t('region.title')}>
         <p>{t('region.description')}</p>
-        <img src={jacaRegion} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab mx-auto" />
+        <img src={jacaRegion} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200 mx-auto" />
         <ul className="list-disc list-inside">
           <li className="text-justify">{t('region.isin')}</li>
           <li className="text-justify">{t('region.sabinanigo')}</li>
@@ -95,7 +94,7 @@ return (
           <li className="text-justify m-2">{t('travel.buses')}: <a href="https://www.alsa.com" target='_blank' className="underline">Alsa</a></li>
           <li className="text-justify m-2">{t('travel.planning')}: <a href="https://www.rome2rio.com" target='_blank' className="underline">Rome to Rio</a></li>
         </ul>
-        <img src={isin} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab mx-auto" />
+        <img src={isin} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200 mx-auto" />
       </DetailSection>
       <DetailSection id="accommodation" title={t('accommodation.title')}>
         <div className='text-center'>
@@ -105,16 +104,16 @@ return (
           <li className="text-justify m-3">{t('accommodation.apartments')}</li>
         </ul>
         <div className='flex justify-center'>
-          <img src={isin2} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
-          <img src={isin3} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
-          <img src={isin1} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
+          <img src={isin2} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
+          <img src={isin3} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
+          <img src={isin1} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
         </div>
         <p>{t('accommodation.budget_option')}</p>
         <p className='pt-3'>{t('accommodation.other_options')}</p>
         <h3 className="text-xl font-bold mt-4 mb-2 ">{t('accommodation.sabinanigo_hotels')}</h3>
         <div className="flex justify-center">
-          <img src={sabiSquare} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
-          <img src={sabiView  } alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
+          <img src={sabiSquare} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
+          <img src={sabiView  } alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
         </div>
           <ul className="list-disc list-inside">
             <h4 className="text-lg font-semibold text-left">{t('accommodation.hotels.title')}</h4>
@@ -130,8 +129,8 @@ return (
           </ul>
           <h3 className="text-xl font-bold mt-4 mb-2">{t('accommodation.jaca_hotels')}</h3>
           <div className="flex justify-center">
-            <img src={jacaCentro} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
-            <img src={jacaCathedral} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
+            <img src={jacaCentro} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
+            <img src={jacaCathedral} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
           </div>
           <ul className="list-disc list-inside text-left">
             <h4 className="text-lg font-semibold text-left">{t('accommodation.hotels.title')}</h4>
@@ -144,7 +143,7 @@ return (
           </div>
         </DetailSection>
         <DetailSection id="gifts" title={t('faqs.gifts.title')}>
-          <p className='p-2 border shadow-md border-olive-drab'>{t('faqs.gifts.description')} <Link to="/banks" className='font-semibold py-2 border border-solid p-2 shadow-md' >{t('here')}</Link></p>
+          <p className='p-2 border shadow-md border-stone-200'>{t('faqs.gifts.description')} <Link to="/banks" className='font-semibold py-2 border border-solid p-2 shadow-md' >{t('here')}</Link></p>
           <ul className='text-justify'>
             <li className='text-lg font-bold'>{t('faqs.gifts.travel.title')}</li>
               <ul className='list-none underline ml-3'>
@@ -187,21 +186,21 @@ return (
             <Faq key={index} title={faq.title} description={faq.description} />
           ))}
           <div className='flex justify-center'>
-          <img className="m-4 w-60 h-60 object-cover object-center rounded-lg border-4 border-olive-drab" src={carolina} alt="Carolina Diloy" />
+          <img className="m-4 w-60 h-60 object-cover object-center rounded-lg border-4 border-stone-200" src={carolina} alt="Carolina Diloy" />
           </div>
-               <p>{t('faqs.organisation.link')} <a className="p-2 border shadow-md font-bold border-olive-drab" href="https://www.carolinadiloy.com" target="_blank">{t('here')}</a></p>
+               <p>{t('faqs.organisation.link')} <a className="p-2 border shadow-md font-bold border-stone-200" href="https://www.carolinadiloy.com" target="_blank">{t('here')}</a></p>
         
         </DetailSection>
         <DetailSection id="dressCode" title={t('dress_code.title')}>
           <p>{t('dress_code.description')}</p>
-          <p className='m-2'>{t('dress_code.inspiration')} <span className='border shadow-md font-bold border-olive-drab px-2'>
+          <p className='m-2'>{t('dress_code.inspiration')} <span className='border shadow-md font-bold border-stone-200 px-2'>
           <Link to={"/looks"}>{t('here')}</Link>
           </span>
         </p> 
         
-          <div className=' m-4 border-4 border-olive-drab shadow-md p-2'>
+          <div className=' m-4 border-4 border-stone-200 shadow-md p-2'>
           <h3>{t('dress_code.waleska.title')}</h3>
-          <p>{t('dress_code.waleska.description')} <a className='p-2 border shadow-md font-bold border-olive-drab' href='https://www.waleskamoda.com' target='blank'>{t('here')}</a></p>
+          <p>{t('dress_code.waleska.description')} <a className='p-2 border shadow-md font-bold border-stone-200' href='https://www.waleskamoda.com' target='blank'>{t('here')}</a></p>
           </div>
           <div className="flex justify-center">
             <img className="max-w-xs h-auto max-h-200 rounded-lg border-4 mt-2"  src={outfit2} alt="Raul and Alison" />
@@ -222,11 +221,10 @@ return (
         </DetailSection>
         <a href="#top" className="fixed bottom-4 right-4 m-2 p-2 border rounded-md cursor-pointer hover:bg-slate-100">↑ {t('top')}</a>
         <div className='flex justify-center'>
-          <img src={isinEntry} className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
-          <img src={isinView} className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-olive-drab" />
+          <img src={isinEntry} className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
+          <img src={isinView} className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
         </div>
       </main>
-    </div>
-    </div>
-  );
+    </div>  
+    );
 };
