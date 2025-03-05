@@ -20,7 +20,7 @@ import outfit5 from './outfit5.jpg';
 import sabiSquare from './sabiSquare.jpg';
 import sabiView from './sabiView.webp';
 import us1 from './us1.jpg';
-import leaf from './leafimage.jpg';
+import leaf from './leaf.jpg';
 import ladies from './inspiration/ladies.jpg'
 import carolina from './carolina.jpg'
 export { 
