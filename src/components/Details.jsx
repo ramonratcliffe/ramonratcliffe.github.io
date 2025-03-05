@@ -210,7 +210,7 @@ return (
         </DetailSection>
         <DetailSection id="rsvp" title={t('rsvp.title')}>
           <h3 className='m-2' >{t('rsvp.response')} 
-            <a className='px-2 py-1 border border-solid shadow-md' href={t('rsvp.link')} target="_blank">
+            <a className='px-2 py-1 m-1 border border-solid shadow-md' href={t('rsvp.link')} target="_blank">
               <span className='font-bold ' >{t('here')}</span>
             </a>
           </h3>
