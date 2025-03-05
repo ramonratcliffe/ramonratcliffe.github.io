@@ -1,0 +1,15 @@
+@import "./tailwind.css";
+
+h1, h2, h3 {
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+p {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
