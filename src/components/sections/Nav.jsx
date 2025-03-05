@@ -7,7 +7,7 @@ export const NavBar = () => {
     return (
         <nav className="align-middle m-2 bg-gray-200 shadow shadow-gray-300 px-8">
 			<div className="h-16 mx-auto md:px-4 container flex items-center">
-			<img className='max-h-11 border-4 border-oliver-drab' src={leaf} alt="" />
+			<img className='max-h-11 border-4 border-oliver-drab' src={ leaf } alt="" />
 			<div className= " text-gray-500 order-3 w-full md:w-auto md:order-2">
 			<ul className="flex justify-between ">
 				<li className='mx-3'><a href="#details">{t('nav.details')}</a></li>
