@@ -35,7 +35,9 @@ export const Details = () => {
     { title: t('faqs.plus_ones.title'), description: t('faqs.plus_ones.description') },
     { title: t('faqs.parking.title'), description: t('faqs.parking.description') },
     { title: t('faqs.pets.title'), description: t('faqs.pets.description') },
-    {title: t('faqs.organisation.title'), description: t('faqs.organisation.description') },
+    {title: t('faqs.etias.title'), description: t('faqs.etias.description')},
+    {title: t('faqs.organisation.title'), description: t('faqs.organisation.description') }
+    
   ];
 return (
   <div className="flex justify-center">

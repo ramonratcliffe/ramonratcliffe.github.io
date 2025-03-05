@@ -86,7 +86,7 @@
       },
       "gifts": {
         "title": "Regalos",
-        "description": "¡Tu presencia en nuestra boda es el mayor regalo que podríamos pedir! Sin embargo, si estás considerando un regalo, nos encantarían las contribuciones para nuestra luna de miel. Habrá un sitio seguro para guardar los sobres o podeís encontrar nuestros datos bancarios ",
+        "description": "¡Tu presencia en nuestra boda es el mayor regalo que podríamos pedir! Sin embargo, si estás considerando un regalo, nos encantarían las contribuciones para nuestra luna de miel. Habrá un sitio seguro para guardar los sobres, que sería lo preferible, o podeís encontrar nuestros datos bancarios ",
         "here": "aquí",
         "banks": "Datos Bancarios",
         "travel": {
@@ -130,6 +130,10 @@
           "title": "¿Puedo traer a mi perro?",
           "description": "Si tienes un amigo peludo, lamentamos decir que no podrá quedarse en el alojamiento. Hay algunas empresas de la zona que os puede echar una mano."
         },
+      "etias": {
+        "title": "", 
+        "description": ""
+      },
       "organisation": {
         "title": "¿Con quien contacto para haceros una sorpresa?",
         "description": "Sabemos que hay cosas en las bodas que los novios no pueden saber antes del gran día. Para ayudar con estas movidas, además de la organización general del día tenemos a una gran profesional, Carolina Diloy. Ella se encargará de la gestion del día, entonces si quereís dedicarnos una canción, habla con ella.",
