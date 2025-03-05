@@ -1,3 +1,4 @@
+import './styles.css';
 import { useTranslation } from 'react-i18next';
 import { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
