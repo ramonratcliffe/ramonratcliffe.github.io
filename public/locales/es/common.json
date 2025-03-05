@@ -78,13 +78,7 @@
           "description": "No sería una boda Ramón sin una mención especial de Waleska Look Moda. La tienda familiar de Raúl está ofreciendo un descuento para cualquiera de nuestras invitadas que quiere comprar su vestido en sus tiendas en Zaragoza. Visita las tiendas o mira en su página web "
       }
     },
-    "faqs": {
-      "title": "FAQs",
-      "food": {
-        "title": "¿Qué habrá para comer?",
-        "description": "No queremos revelar todas las sorpresas, pero habrá mucha comida, y aquellos con requisitos dietéticos especiales serán atendidos. ¡Nuestro RSVP preguntará sobre esto!"
-      },
-      "gifts": {
+    "gifts": {
         "title": "Regalos",
         "description": "¡Tu presencia en nuestra boda es el mayor regalo que podríamos pedir! Sin embargo, si estás considerando un regalo, nos encantarían las contribuciones para nuestra luna de miel. Habrá un sitio seguro para guardar los sobres, que sería lo preferible, o podeís encontrar nuestros datos bancarios ",
         "here": "aquí",
@@ -107,7 +101,19 @@
           "ski_classes": "",
           "cooking_classes": "",
           "kayaking_classes": ""
-        }
+        },
+        "other": {
+        "title": "",
+        "corte": "",
+        "massage":"",
+        "experiences": ""
+      }
+    },
+    "faqs": {
+      "title": "FAQs",
+      "food": {
+        "title": "¿Qué habrá para comer?",
+        "description": "No queremos revelar todas las sorpresas, pero habrá mucha comida, y aquellos con requisitos dietéticos especiales serán atendidos. ¡Nuestro RSVP preguntará sobre esto!"
       },
       "names": {
         "title": "Los ingleses cambian sus apellidos...¿y vosotros?",

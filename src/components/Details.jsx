@@ -25,6 +25,7 @@ import {
 import { MapFrame } from './sections/MapFrame';
 import { NavBar } from './sections/Nav';
 import { Link } from 'react-router-dom';
+import { Gifts } from './sections/Gifts';
 
 export const Details = () => {
   const { t } = useTranslation();
@@ -142,45 +143,7 @@ return (
           </ul>
           </div>
         </DetailSection>
-        <DetailSection id="gifts" title={t('faqs.gifts.title')}>
-          <p className='p-2 border shadow-md border-stone-200'>{t('faqs.gifts.description')} <Link to="/banks" className='font-semibold py-2 border border-solid p-2 shadow-md' >{t('here')}</Link></p>
-          <ul className='text-justify'>
-            <li className='text-lg font-bold'>{t('faqs.gifts.travel.title')}</li>
-              <ul className='list-none underline ml-3'>
-                <li>
-                  <a href="https://paradores.es/es/cajas-regalo">{t('faqs.gifts.travel.paradores')}</a>
-                </li>
-                <li>
-                  <a href="https://www.flightgift.com/" target="_blank" rel="noopener noreferrer">{t('faqs.gifts.travel.flights')}</a>
-                </li>
-                <li>
-                  <a href="https://www.airbnb.com/giftcards" target="_blank" rel="noopener noreferrer">{t('faqs.gifts.travel.airbnb')}</a>
-                </li>
-                <li>
-                  <a href="https://www.activitygift.com/" target="_blank" rel="noopener noreferrer">{t('faqs.gifts.travel.activities')}</a>
-                </li>
-               
-              </ul>
-              <li className='text-lg font-bold'>{t('faqs.gifts.reading.title')}</li>
-              <ul className='list-none underline ml-3'>
-                <li>
-                  <a href="https://uk.bookshop.org/gift_cards" target="_blank" rel="noopener noreferrer">{t('faqs.gifts.reading.bookshop')}</a>
-                </li>
-                <li>
-                  <a href="https://www.waterstones.com/category/gift-cards" target="_blank" rel="noopener noreferrer">{t('faqs.gifts.reading.waterstones')}</a>
-                </li>
-              </ul>
-              <li className='text-lg font-bold'>{t('faqs.gifts.learning.title')}</li>
-              <ul className='list-none underline ml-3'>
-              <li><a href="https://bookings.escuelacantabradesurf.com/en/product/bono-solo-surf" target="_blank" rel="noopener noreferrer">{t('faqs.gifts.learning.surf_classes')}</a></li>
-              <li><a href="https://valdelinaresqui.com/tarifas-reservas/" target="_blank" rel="noopener noreferrer">{t('faqs.gifts.learning.ski_classes')}</a></li>
-              <li><a href="https://www.lazarola.com/regala-curso-cocina-zaragoza/" target="_blank" rel="noopener noreferrer">{t('faqs.gifts.learning.cooking_classes')}</a>
-              </li>
-              <li><a href="https://ebronautas.net/reservas-y-vales-regalo/" target="_blank" rel="noopener noreferrer">{t('faqs.gifts.learning.kayaking_classes')}</a></li>
-              </ul>
-            </ul>
-           
-        </DetailSection>
+        <Gifts />
         <DetailSection id="faqs" title={t('faqs.title')}>
           {faqs.map((faq, index) => (
             <Faq key={index} title={faq.title} description={faq.description} />
