@@ -80,7 +80,7 @@
     },
     "gifts": {
         "title": "Regalos",
-        "description": "¡Tu presencia en nuestra boda es el mayor regalo que podríamos pedir! Sin embargo, si estás considerando un regalo, nos encantarían las contribuciones para nuestra luna de miel. Habrá un sitio seguro para guardar los sobres, que sería lo preferible, o podeís encontrar nuestros datos bancarios ",
+        "description": "¡Tu presencia en nuestra boda es el mayor regalo que podríamos pedir! Sin embargo, si estás considerando un regalo, nos encantarían las contribuciones para nuestra luna de miel. Habrá un sitio seguro para guardar los sobres, si nos queréis dar el regalo en efectivo, o podeís encontrar nuestros datos bancarios ",
         "here": "aquí",
         "banks": "Datos Bancarios",
         "travel": {
@@ -119,7 +119,7 @@
         "title": "Los ingleses cambian sus apellidos...¿y vosotros?",
         "description": "No cambiaremos nuestros apellidos después de casarnos, así que seguiremos siendo Alison Ratcliffe y Raúl Ramón Gracia."
       },
-       
+  
       "weather": { 
             "title": "¿Qué tiempo va a hacer?", 
             "description": "Esperamos que la temperatura sea cálida (alrededor de 20ºC de media, máximo 25º), pero que se enfríe por la noche (mínimo 13º). Isín tiene unos 6 días de lluvia en septiembre, en promedio, así que tenemos buenas probabilidades de un día bueno." 
@@ -131,6 +131,10 @@
       "parking": {
           "title": "¿Hay donde aparcar?",
           "description": "Sí, aunque agradecemos que intenteis compartir coche donde sea posible, debería haber espacio para todos."
+        },
+        "honeymoon": {
+            "title": "Luna de Miel",
+            "description": "Estamos planeando nuestra luna de miel en Sri Lanka, un lugar totalmente distinto a donde hemos estado antes. Nos encanta la naturaleza y queremos que este viaje sea para crear recuerdos inolvidables. Será aún más especial porque Alison tiene una amiga allí, lo que hará que la visita sea increíble. Tendremos unos 20 días para explorar y disfrutar de todo lo que este país tiene para ofrecer."
         },
       "pets": {
           "title": "¿Puedo traer a mi perro?",
