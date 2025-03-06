@@ -7,10 +7,9 @@ export default defineConfig({
     react(),
     viteStaticCopy({
       targets: [
-        { src: 'dist/index.html', dest: '' }, // Copy index.html to 404.html
-        { src: 'dist/index.html', rename: '404.html', dest: '' },
+        { src: 'index.html', dest: '', rename: '404.html' }, 
       ],
     }),
   ],
-  base: "/",
+  base: "/", 
 });

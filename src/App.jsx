@@ -1,12 +1,13 @@
 import './styles.css';
 import { useTranslation } from 'react-i18next';
 import { Suspense } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Details } from './components/Details'; 
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Banks } from './components/Banks';
 import { MoodBoard } from './components/MoodBoard' 
+import { NotFound } from './components/NotFound'
 import { leaf } from './assets/assets';
 function App() {
   const { t } = useTranslation();
