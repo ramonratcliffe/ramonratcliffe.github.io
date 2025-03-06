@@ -29,7 +29,7 @@ export default function WrappedApp() {
   return (
     <div className="flex justify-center items-center min-h-screen">
     <Suspense fallback="Loading" >
-      <Router basename="/">
+      <Router basename="">
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/details" element={<Details />} />
