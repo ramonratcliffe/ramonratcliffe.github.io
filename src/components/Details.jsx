@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { Faq } from './sections/Faq';
 import { DetailSection } from './sections/DetailSection';  
 import { HorizontalScrollContainer } from './sections/HorizontalScrollContainer';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom'
 import { 
   carolina,
   isin,
@@ -29,7 +31,9 @@ import { Link } from 'react-router-dom';
 import { Gifts } from './sections/Gifts';
 
 export const Details = () => {
+
   const { t } = useTranslation();
+  const location = useLocation();
    const faqs = [
     { title: t('faqs.food.title'), description: t('faqs.food.description') },
     { title: t('faqs.names.title'), description: t('faqs.names.description') },
@@ -41,8 +45,17 @@ export const Details = () => {
     {title: t('faqs.organisation.title'), description: t('faqs.organisation.description') }
     
   ];
+  useEffect(() => {
+    if (location.hash) {
+      const anchor = location.hash.replace('#', ''); // Remove the '#' from the hash
+      const element = document.getElementById(anchor); // Find the element with the matching ID
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' }); // Scroll to the element
+      }
+    }
+  }, [location]);
 return (
-  <div className="flex flex-col items-center mx-auto w-full px-4">
+  <div className="flex flex-col items-center mx-auto w-full px-4" id="top">
     <NavBar />
     <main className="w-full max-w-2xl p-4">
     <div className="flex justify-center">
@@ -186,7 +199,7 @@ return (
             <a href="mailto:ramonratcliffe@gmail.com" target='_blank'> ramonratcliffe@gmail.com </a>
           </p>
         </DetailSection>
-        <a href="#top" className="fixed bottom-4 right-4 m-2 border rounded-md cursor-pointer bg-grey">↑ {t('top')}</a>
+        <a href="#/details#top" className="fixed bottom-4 right-4 m-2 border rounded-md cursor-pointer bg-grey">↑ {t('top')}</a>
         <div className='flex justify-center'>
           <img src={isinEntry} className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
           <img src={isinView} className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
