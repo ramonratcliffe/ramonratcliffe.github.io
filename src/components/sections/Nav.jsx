@@ -40,16 +40,16 @@ export const NavBar = () => {
           } md:relative md:block md:w-auto`}
         >
           <ul className="flex flex-col md:flex-row md:justify-between text-gray-500">
-            <li className="mx-3 my-2 md:my-0"><a href="#/details#details">{t('nav.details')}</a></li>
-            <li className="mx-3 my-2 md:my-0"><a href="#/details#plan">{t('nav.plan')}</a></li>
-            <li className="mx-3 my-2 md:my-0"><a href="#/details#region">{t('nav.region')}</a></li>
-            <li className="mx-3 my-2 md:my-0"><a href="#/details#location">{t('nav.location')}</a></li>
-            <li className="mx-3 my-2 md:my-0"><a href="#/details#travel">{t('nav.travel')}</a></li>
-            <li className="mx-3 my-2 md:my-0"><a href="#/details#accommodation">{t('nav.accommodation')}</a></li>
-            <li className="mx-3 my-2 md:my-0"><a href="#/details#gifts">{t('gifts.title')}</a></li>
-            <li className="mx-3 my-2 md:my-0"><a href="#/details#faqs">{t('nav.faqs')}</a></li>
-            <li className="mx-3 my-2 md:my-0"><a href="#/details#dressCode">{t('dress_code.title')}</a></li>
-            <li className="mx-3 my-2 md:my-0 font-bold"><a href="#/details#rsvp">RSVP</a></li>
+            <li className="mx-3 my-2 md:my-0"><a href="/details#details">{t('nav.details')}</a></li>
+            <li className="mx-3 my-2 md:my-0"><a href="/details#plan">{t('nav.plan')}</a></li>
+            <li className="mx-3 my-2 md:my-0"><a href="/details#region">{t('nav.region')}</a></li>
+            <li className="mx-3 my-2 md:my-0"><a href="/details#location">{t('nav.location')}</a></li>
+            <li className="mx-3 my-2 md:my-0"><a href="/details#travel">{t('nav.travel')}</a></li>
+            <li className="mx-3 my-2 md:my-0"><a href="/details#accommodation">{t('nav.accommodation')}</a></li>
+            <li className="mx-3 my-2 md:my-0"><a href="/details#gifts">{t('gifts.title')}</a></li>
+            <li className="mx-3 my-2 md:my-0"><a href="/details#faqs">{t('nav.faqs')}</a></li>
+            <li className="mx-3 my-2 md:my-0"><a href="/details#dressCode">{t('dress_code.title')}</a></li>
+            <li className="mx-3 my-2 md:my-0 font-bold"><a href="/details#rsvp">RSVP</a></li>
           </ul>
         </div>
       </div>
