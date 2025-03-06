@@ -24,7 +24,7 @@ export const Banks = () => {
       </div>
       <div className="p-6 mx-auto">
         <Link 
-        to="/details" className="place-items-end p-2 border rounded-md cursor-pointer shadow-lg">
+        to="/details#gifts" className="place-items-end p-2 border rounded-md cursor-pointer shadow-lg">
         {t('return')}
       </Link>
       </div>
