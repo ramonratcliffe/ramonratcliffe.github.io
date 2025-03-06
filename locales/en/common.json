@@ -78,17 +78,7 @@
           "description": "It wouldn't be a Ramon wedding without a special mention to Waleska | Look Moda. Raúl's family shop are offering a lovely discount for any of our guests who wish to get their outfit in either of their shops in Zaragoza. Visit the shops or check out their website "
       }
   },
-    "faqs": {
-        "title": "FAQs",
-        "food": {
-            "title": "Food",
-            "description": "We don't want to give away all the surprises, but there will be plenty of food, and those with any special dietary requirements will be catered for. Our RSVP will ask about this!"
-        },
-        "check_in": {
-            "title": "Hostel / Apartment Check In",
-            "description": ""
-        },
-        "gifts": {
+  "gifts": {
             "title": "Gifts",
             "description": "Your presence at our wedding is the greatest gift we could ask for! However, if you're considering a present, we would love contributions towards our honeymoon, but we know that's boring! So here are some examples of things we love. Some of them are gift cards and others are to give you some ideas! We'll have a letter box for cards or our bank details are ",
             "travel": {
@@ -109,8 +99,25 @@
                 "ski_classes": "Ski classes (no gift cards available)",
                 "cooking_classes": "Cooking classes (no gift cards online)",
                 "kayaking_classes": "Kayaking and nature classes"
+            },
+            "other": {
+                "title": "Other things we'd appreciate",
+                "corte": "El Corté Inglés voucher",
+                "massage": "Liang Xin Massage",
+                "experiences": "Click&Plan, local activities and classes"
             }
         },
+    "faqs": {
+        "title": "FAQs",
+        "food": {
+            "title": "Food",
+            "description": "We don't want to give away all the surprises, but there will be plenty of food, and those with any special dietary requirements will be catered for. Our RSVP will ask about this!"
+        },
+        "check_in": {
+            "title": "Hostel / Apartment Check In",
+            "description": ""
+        },
+        
         "names": {
             "title": "Names",
             "description": "In Spain people don't change surnames after getting married so we'll still be Alison Ratcliffe and Raúl Ramón Gracia."
