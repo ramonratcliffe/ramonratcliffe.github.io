@@ -36,7 +36,7 @@ export const Details = () => {
   const location = useLocation();
    const faqs = [
     { title: t('faqs.food.title'), description: t('faqs.food.description') },
-    { title: t('faqs.honeymoon.title'), description: t('faqs.honeymoon.title')},
+    { title: t('faqs.honeymoon.title'), description: t('faqs.honeymoon.description')},
     { title: t('faqs.weather.title'), description: t('faqs.weather.description') },
     { title: t('faqs.plus_ones.title'), description: t('faqs.plus_ones.description') },
     { title: t('faqs.parking.title'), description: t('faqs.parking.description') },
