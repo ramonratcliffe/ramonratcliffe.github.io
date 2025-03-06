@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Faq } from './sections/Faq';
 import { DetailSection } from './sections/DetailSection';  
+import { HorizontalScrollContainer } from './sections/HorizontalScrollContainer';
 import { 
   carolina,
   isin,
@@ -104,11 +105,13 @@ return (
           <li className="text-justify m-3" >{t('accommodation.hostel')}</li>
           <li className="text-justify m-3">{t('accommodation.apartments')}</li>
         </ul>
-        <div className='flex justify-center'>
+      
+        <HorizontalScrollContainer>
           <img src={isin2} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
           <img src={isin3} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
           <img src={isin1} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
-        </div>
+        </HorizontalScrollContainer>
+
         <p>{t('accommodation.budget_option')}</p>
         <p className='pt-3'>{t('accommodation.other_options')}</p>
         <h3 className="text-xl font-bold mt-4 mb-2 ">{t('accommodation.sabinanigo_hotels')}</h3>
@@ -152,7 +155,7 @@ return (
           <img className="m-4 w-60 h-60 object-cover object-center rounded-lg border-4 border-stone-200" src={carolina} alt="Carolina Diloy" />
           </div>
                <p>{t('faqs.organisation.link')} <a className="p-2 border shadow-md font-bold border-stone-200" href="https://www.carolinadiloy.com" target="_blank">{t('here')}</a></p>
-        
+      
         </DetailSection>
         <DetailSection id="dressCode" title={t('dress_code.title')}>
           <p>{t('dress_code.description')}</p>
@@ -165,16 +168,17 @@ return (
           <h3>{t('dress_code.waleska.title')}</h3>
           <p>{t('dress_code.waleska.description')} <a className='p-2 border shadow-md font-bold border-stone-200' href='https://www.waleskamoda.com' target='blank'>{t('here')}</a></p>
           </div>
-          <div className="flex justify-center">
+
+          <HorizontalScrollContainer>
             <img className="max-w-xs h-auto max-h-200 rounded-lg border-4 mt-2"  src={outfit2} alt="Raul and Alison" />
             <img className="max-w-xs h-auto max-h-200 rounded-lg border-4 mt-2"  src={outfit1} alt="Raul and Alison" />
             <img className="max-w-xs h-auto max-h-200 rounded-lg border-4 mt-2"  src={outfit5} alt="Raul and Alison" />
-            </div>
-        </DetailSection>
+          </HorizontalScrollContainer>
+          </DetailSection>
         <DetailSection id="rsvp" title={t('rsvp.title')}>
           <h3 className='m-2' >{t('rsvp.response')} 
-            <a className='px-2 py-1 m-1 border border-solid shadow-md' href={t('rsvp.link')} target="_blank">
-              <span className='font-bold ' >{t('here')}</span>
+            <a className='p1 ' href={t('rsvp.link')} target="_blank">
+              <span className='font-bold m-2 border border-solid shadow-md' >{t('here')}</span>
             </a>
           </h3>
           <p className='m-2'>{t('rsvp.limit')}</p>
@@ -182,7 +186,7 @@ return (
             <a href="mailto:ramonratcliffe@gmail.com" target='_blank'> ramonratcliffe@gmail.com </a>
           </p>
         </DetailSection>
-        <a href="#top" className="fixed bottom-4 right-4 m-2 p-2 border rounded-md cursor-pointer hover:bg-slate-100">↑ {t('top')}</a>
+        <a href="#top" className="fixed bottom-4 right-4 m-2 border rounded-md cursor-pointer bg-grey">↑ {t('top')}</a>
         <div className='flex justify-center'>
           <img src={isinEntry} className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />
           <img src={isinView} className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200" />

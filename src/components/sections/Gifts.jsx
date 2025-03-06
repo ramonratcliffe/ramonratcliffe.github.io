@@ -5,11 +5,11 @@ export const Gifts = () => {
       const { t } = useTranslation();
       return (
         <DetailSection id="gifts" title={t('gifts.title')}>
-      <p className='p-2 border shadow-md border-stone-200'>{t('gifts.description')} <Link to="/banks" className='font-semibold py-2 border border-solid p-2 shadow-md' >{t('here')}</Link></p>
+      <p className='p-2 border shadow-md border-stone-200'>{t('gifts.description')} <Link to="../banks" className='font-semibold py-2 border border-solid p-2 shadow-md' >{t('here')}</Link></p>
     <ul className='text-justify'>
   <li className='text-lg font-bold'>{t('gifts.travel.title')}</li>
     <ul className='list-none underline ml-3'>
-      <li><a href="https://paradores.es/es/cajas-regalo">{t('gifts.travel.paradores')}</a></li>
+      <li><a href="https://paradores.es/es/cajas-regalo" target="_blank">{t('gifts.travel.paradores')}</a></li>
       <li><a href="https://www.flightgift.com/" target="_blank" rel="noopener noreferrer">{t('gifts.travel.flights')}</a></li>
       <li><a href="https://www.airbnb.com/giftcards" target="_blank" rel="noopener noreferrer">{t('gifts.travel.airbnb')}</a></li>
       <li><a href="https://www.activitygift.com/" target="_blank" rel="noopener noreferrer">{t('gifts.travel.activities')}</a></li>

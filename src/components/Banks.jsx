@@ -6,7 +6,7 @@ export const Banks = () => {
 
   return (
     <div className="p-4 w-2/3">
-      <h2 className="text-2xl font-bold m-4 justify-center">{t('faqs.gifts.banks')}</h2>
+      <h2 className="text-2xl font-bold m-4 justify-center">{t('gifts.banks')}</h2>
       <div className="flex flex-wrap justify-evenly">
         <div className="border bg-light-green-50 rounded-lg p-8 shadow-lg w-full md:w-1/4 text-center align-middle">
           <h3 className="text-xl font-bold text-center pb-2 ">Paypal</h3>
