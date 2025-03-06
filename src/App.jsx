@@ -35,6 +35,7 @@ export default function WrappedApp() {
           <Route path="/details" element={<Details />} />
           <Route path="/banks" element={<Banks/>} />
           <Route path="/looks" element={<MoodBoard />} /> 
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </Suspense>
