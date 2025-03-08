@@ -184,9 +184,9 @@ return (
           </div>
 
           <HorizontalScrollContainer>
-            <img className="max-w-xs h-auto max-h-200 rounded-lg border-4 mt-2"  src={outfit2} alt="Raul and Alison" />
-            <img className="max-w-xs h-auto max-h-200 rounded-lg border-4 mt-2"  src={outfit1} alt="Raul and Alison" />
             <img className="max-w-xs h-auto max-h-200 rounded-lg border-4 mt-2"  src={outfit5} alt="Raul and Alison" />
+            <img className="max-w-xs h-auto max-h-200 rounded-lg border-4 mt-2"  src={outfit1} alt="Raul and Alison" />
+            <img className="max-w-xs h-auto max-h-200 rounded-lg border-4 mt-2"  src={outfit2} alt="Raul and Alison" />
           </HorizontalScrollContainer>
           </DetailSection>
         <DetailSection id="rsvp" title={t('rsvp.title')}>
