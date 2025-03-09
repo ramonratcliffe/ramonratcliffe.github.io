@@ -108,7 +108,9 @@ return (
         <ul className="list-disc list-inside">
           <li className="text-justify m-2">{t('travel.trains')}: <a href="https://www.renfe.com" className="underline" target='_blank'>Renfe</a></li>
           <li className="text-justify m-2">{t('travel.buses')}: <a href="https://www.alsa.com" target='_blank' className="underline">Alsa</a></li>
-          <li className="text-justify m-2">{t('travel.planning')}: <a href="https://www.rome2rio.com" target='_blank' className="underline">Rome to Rio</a></li>
+          <p>{t('travel.car_share.description')}</p>
+          <li className="text-justify m-2">{t('travel.car_share.title')}: <a href="https://docs.google.com/spreadsheets/d/1SeOFDgKZyO34QODjvKpT7oMwjV0JDqi_hBv9rMmkyVE/edit?usp=sharing" target='_blank' className="underline">{t('here')}</a></li>
+          <li className="text-justify m-2">{t('travel.planning')}: <a href="https://www.rome2rio.com" target='_blank' className="underline">Rome to Rio</a></li>       
         </ul>
         <img src={isin} alt="" className="max-w-xs h-auto max-h-200 rounded-lg border-4 border-stone-200 mx-auto" />
       </DetailSection>

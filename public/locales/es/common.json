@@ -44,8 +44,11 @@
       "description": "El pueblo de Sabiñánigo es accesible en tren y autobús desde Zaragoza, Huesca y Pamplona (todas en líneas principales de tren). Desde allí, es un corto trayecto en taxi a Isín - o coordinaremos viajes con amigos de la zona. En coche, está a unas 3,5 horas de Barcelona y Bilbao, 1,5 horas de Zaragoza y Pamplona o un poco más de 4 horas de Madrid.",
       "trains": "Trenes",
       "buses": "Buses",
-      "planning": "Planificación"
-    },
+      "planning": "Planificación con transporte público",
+      "car_share":{
+        "title": "Compartir coche",
+        "description": "Hemos creado una hoja de Excel para la gente que viene de fuera, o que no conduce, para compartir coche. Si, por ejemplo, viajáis desde Zaragoza en coche y podéis ofrecer plazas libres en tu coche, o buscas a alguien que te pueda llevar, podéis buscar opciones. "
+    }},
     "accommodation": {
       "title": "Alojamiento",
       "description": "¡Hemos reservado todo el pueblo! Las opciones básicas en el lugar incluyen:",
@@ -130,7 +133,7 @@
         },
       "parking": {
           "title": "¿Hay donde aparcar?",
-          "description": "Sí, aunque agradecemos que intenteis compartir coche donde sea posible, debería haber espacio para todos."
+          "description": "Sí, aunque agradecemos que intenteis compartir coche donde sea posible, debería haber espacio para todos. Recuerda usar el excel de Compartir Coche si puedes. Lo encontrarás arriba en la sección de Transporte."
         },
         "honeymoon": {
             "title": "Luna de Miel",
