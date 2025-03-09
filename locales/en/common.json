@@ -44,8 +44,12 @@
         "description": "The town of Sabiñánigo is accessible via train and coach/bus from Zaragoza, Huesca, and Pamplona (all of which are on main train lines). From there, it’s a short drive to Isín by taxi —or we’ll gladly help coordinate lifts with local friends! By car it’s about 1.5h from Zaragoza, 3.5h from Barcelona and Bilbao, or a little over 4h from Madrid and Toulouse. So for flights, consider Zaragoza (direct from Stansted), Bilbao, Barcelona, Madrid or even Toulouse as options. For ferries consider Bilbao and Santander.",
         "trains": "Trains",
         "buses": "Buses",
-        "planning": "Journey planning"
-    },
+        "planning": "Public Transport Journey planning",
+        "car_share":{
+            "title": "Car Sharing ",
+            "description": "We have created a spreadsheet for you to find carpool buddies. If, for example, you plan to hire a car and drive from Bilbao, make a note of it and you may be able to share the cost."
+    }
+},
     "accommodation": {
         "title": "Accommodation",
         "description": "We’ve booked the whole village! Basic on-site options include:",
@@ -133,7 +137,7 @@
         },
         "parking": {
             "title": "Parking",
-            "description": "There is parking space in the village. The road access is a little rural, but nothing too scary. Sharing cars would be a huge help to reduce the number of vehicles we need to find space for."
+            "description": "There is parking space in the village. The road access is a little rural, but nothing too scary. Sharing cars would be a huge help to reduce the number of vehicles we need to find space for. You can find more info in the Getting Here section above."
         },
         "honeymoon": {
             "title": "Honeymoon",
