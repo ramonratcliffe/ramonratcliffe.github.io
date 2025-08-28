@@ -89,8 +89,7 @@
                 "title": "Travel",
                 "paradores": "Paradores",
                 "flights": "Flights",
-                "airbnb": "Airbnb",
-                "activities": "Activities"
+                "airbnb": "Airbnb"
             },
             "reading": {
                 "title": "Reading",
@@ -99,10 +98,12 @@
             },
             "learning": {
                 "title": "Learning",
-                "surf_classes": "Surf classes",
-                "ski_classes": "Ski classes (no gift cards available)",
-                "cooking_classes": "Cooking classes (no gift cards online)",
-                "kayaking_classes": "Kayaking and nature classes"
+                "cooking_classes": "Cooking classes (no gift cards online)"
+            },
+            "new_home": {
+                "title": "New Home",
+                "ikea": "IKEA",
+                "leroy_merlin": "Leroy Merlin"
             },
             "other": {
                 "title": "Other things we'd appreciate",
@@ -163,6 +164,15 @@
         "link": "https://forms.gle/YqPGSeLY86uPb4SU6",
         "limit": "Please respond by 30 MAY 2025",
         "contact": "If you have any doubts or want to change your RSVP, aside from Whatsapp, the easiest way is to email us: "
+    },
+    "zaragoza":{
+        "title": "Zaragoza and the Surrounding Area",
+        "introTitle": "Zaragoza is a vibrant city with a rich history and plenty to see and do. If you're planning to explore the area before or after the wedding, here are some highlights:",
+        "thingsToDo": "Things to do",
+        "aljaferia": "Aljafería Palace: A Moorish palace turned Catholic castle with beautiful gardens, now the home of the Aragonese Parliament.",
+        "parqueGrande": "Parque Grande: A large park with fountains, gardens, and a lake, perfect for a leisurely stroll or a nice drink or dinner.",
+        "plazaPilar": "Basilica del Pilar: A stunning baroque basilica with impressive frescoes by Goya, located on the banks of the Ebro River.",
+        "elTubo": "El Tubo: A lively area with narrow streets full of tapas bars and restaurants, perfect for a night out. We recommend trying the local delicacies like 'ternasco' (roast lamb) and 'jamón de Teruel' (cured ham). Doña Casta for croquetas and El Champi for...well Champis (mushrooms)"
     },
     "top": "Back to the top"
 }
