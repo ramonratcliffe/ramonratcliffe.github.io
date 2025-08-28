@@ -12,7 +12,6 @@ export const Gifts = () => {
       <li><a href="https://paradores.es/es/cajas-regalo" target="_blank">{t('gifts.travel.paradores')}</a></li>
       <li><a href="https://www.flightgift.com/" target="_blank" rel="noopener noreferrer">{t('gifts.travel.flights')}</a></li>
       <li><a href="https://www.airbnb.com/giftcards" target="_blank" rel="noopener noreferrer">{t('gifts.travel.airbnb')}</a></li>
-      <li><a href="https://www.activitygift.com/" target="_blank" rel="noopener noreferrer">{t('gifts.travel.activities')}</a></li>
     </ul>
     <li className='text-lg font-bold'>{t('gifts.reading.title')}</li>
     <ul className='list-none underline ml-3'>
@@ -21,9 +20,12 @@ export const Gifts = () => {
     </ul>
     <li className='text-lg font-bold'>{t('gifts.learning.title')}</li>
     <ul className='list-none underline ml-3'>
-        <li><a href="https://bookings.escuelacantabradesurf.com/en/product/bono-solo-surf" target="_blank" rel="noopener noreferrer">{t('gifts.learning.surf_classes')}</a></li>
-        <li><a href="https://valdelinaresqui.com/tarifas-reservas/" target="_blank" rel="noopener noreferrer">{t('gifts.learning.ski_classes')}</a></li>
         <li><a href="https://www.lazarola.com/regala-curso-cocina-zaragoza/" target="_blank" rel="noopener noreferrer">{t('gifts.learning.cooking_classes')}</a></li>
+    </ul>
+    <li className='text-lg font-bold'>{t('gifts.new_home.title')}</li>
+    <ul className='list-none underline ml-3'>
+        <li><a href="https://www.ikea.com/us/en/customer-service/gift-cards-pub3d1efe50/">{t('gifts.new_home.ikea')}</a></li>
+        <li><a href="https://www.leroymerlin.es/servicios/servicios-en-tiendas/tarjeta-regalo-de-leroy-merlin.html" target="_blank" rel="noopener noreferrer">{t('gifts.new_home.leroy_merlin')}</a></li>
     </ul>
     <li className='text-lg font-bold'>{t('gifts.other.title')}</li>
     <ul className='list-none underline ml-3'>
@@ -31,6 +33,7 @@ export const Gifts = () => {
         <li><a href="https://liangxin.es/" target="_blank" rel="noopener noreferrer">{t('gifts.other.massage')}</a></li>
         <li><a href="https://clickandplan.es/zaragoza/regalos/tarjetas-regalo" target="_blank" rel="noopener noreferrer">{t('gifts.other.experiences')}</a></li>
     </ul>
+   
   </ul>
 </DetailSection>
     )
